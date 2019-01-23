@@ -1,0 +1,32 @@
+{
+  "name": "@alinasava/gridkit",
+  "version": "0.1.0",
+  "homepage": "https://gridkit.io",
+  "author": {
+    "name": "Alina Sava",
+    "email": "alina@sava.io",
+    "url": "https://sava.io"
+  },
+  "description": "Extremely minimalist CSS framework based on CSS grid",
+  "main": "",
+  "unpkg": "gridkit.css",
+  "style": "gridkit-min.css",
+  "repository": "alinacsava/gridkit",
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "grid",
+    "framework",
+    "gridkit",
+    "alinasava",
+    "responsive"
+  ],
+  "bugs": {
+    "url": "https://github.com/alinacsava/gridkit/issues"
+  },
+  "files": [
+    "css",
+    "LICENSE",
+    "README.md"
+  ]
+}
