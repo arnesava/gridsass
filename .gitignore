@@ -1,0 +1,6 @@
+# Dot files
+.idea/
+.DS_Store
+
+#CodeKit
+config.codekit3
