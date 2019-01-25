@@ -44,8 +44,6 @@ CSS grid works in all modern browsers (See full browser compatibility on [canius
 * Opera
 * Edge 16+
 
-Internet Explorer is not supported.
-
 Also works with recent versions of mobile browsers:
 * iOS: Safari, Chrome
 * Android: Android Browser, Chrome, Firefox, Samsung, Opera Mobile, UC Browser
