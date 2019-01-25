@@ -1,6 +1,6 @@
 # GridKit.io
 
-Extremely minimalist performance-oriented **CSS framework** based on [CSS grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).
+Ultralight performance-oriented modular CSS framework based on [CSS grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).
 
 ## Install
 
