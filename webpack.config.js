@@ -1,15 +1,13 @@
-const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 module.exports = {
 	optimization: {
 		minimizer: [
-			new UglifyJsPlugin({
-				cache: true,
-				parallel: true,
-				sourceMap: true
-			}),
-			new OptimizeCSSAssetsPlugin({})
+			new OptimizeCSSAssetsPlugin({
+				cssProcessorPluginOptions: {
+					preset: ['default', { colormin: false }],
+				},
+			})
 		]
 	},
 	plugins: [

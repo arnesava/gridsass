@@ -1,0 +1,24 @@
+{
+  "name": "alinacsava/gridkitio",
+  "description": "Ultralight performance-oriented modular CSS framework based on CSS grid.",
+  "keywords": [
+    "css",
+    "grid",
+    "framework",
+    "gridkit",
+    "gridkitio",
+    "responsive"
+  ],
+  "homepage": "http://gridkit.io/",
+  "authors": [
+    {
+      "name": "Alina Sava",
+      "email": "alina@sava.io"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/alinacsava/gridkitio/issues"
+  },
+  "license": "MIT"
+}
+
