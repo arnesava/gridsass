@@ -5,7 +5,7 @@ module.exports = {
 		minimizer: [
 			new OptimizeCSSAssetsPlugin({
 				cssProcessorPluginOptions: {
-					preset: ['default', { colormin: false }],
+					preset: ['default', {colormin: false}],
 				},
 			})
 		]
