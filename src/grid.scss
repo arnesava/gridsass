@@ -1,0 +1,25 @@
+$col-nr: 12;
+$col-gap: 1rem;
+
+.gk-grid	{
+	display: grid;
+	grid-gap: $col-gap;
+	grid-template-columns: repeat($col-nr, 1fr);
+}
+
+/* - Grid items alignment */
+
+/* - Stretch vertically - all the grid items in the same row will have the same height */
+.gk-grid.stretch	{
+	align-items: stretch;
+}
+
+/* - Center vertically */
+.gk-grid.v-center	{
+	align-items: center;
+}
+
+/* - Center horizontally */
+.gk-grid.h-center	{
+	justify-content: center;
+}

@@ -1,0 +1,9 @@
+@import "grid";
+
+@for $i from 1 through $col-nr {
+  .col-span-#{$i} {
+	grid-column: span $i;
+	background: #222;
+	height: 200px;
+  }
+}
