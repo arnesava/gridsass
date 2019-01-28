@@ -1,7 +1,0 @@
-@import "grid";
-
-@for $i from 1 through $col-nr {
-	.col-start-#{$i} {
-		grid-column-start: span $i;
-	}
-}

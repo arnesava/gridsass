@@ -1,8 +1,8 @@
-import "./base.css";
-import "./grid.css";
-import "./column-span.css";
-import "./row-span.css";
-import "./column-indent.css";
+import "./base.scss";
+import "./grid.scss";
+import "./column-span.scss";
+import "./row-span.scss";
+import "./column-indent.scss";
 import "./code.css";
 import "./tables.css";
 import "./form.css";

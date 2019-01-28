@@ -7,19 +7,43 @@ $col-gap: 1rem;
 	grid-template-columns: repeat($col-nr, 1fr);
 }
 
-/* - Grid items alignment */
+/* - Stretch vertically */
 
-/* - Stretch vertically - all the grid items in the same row will have the same height */
 .gk-grid.stretch {
-	align-items: stretch;
+	align-items: stretch; /* all the grid items in the same row will have the same height */
 }
 
 /* - Center vertically */
+
 .gk-grid.v-center {
 	align-items: center;
 }
 
 /* - Center horizontally */
+
 .gk-grid.h-center {
 	justify-content: center;
+}
+
+/* - Column span */
+
+@for $i from 1 through $col-nr {
+	.col-span-#{$i} {
+		grid-column: span $i;
+	}
+}
+
+/* - Row span */
+
+@for $i from 1 through $col-nr {
+	.row-span-#{$i} {
+		grid-row: span $i;
+	}
+}
+
+/* - Column indent */
+@for $i from 1 through $col-nr {
+	.col-start-#{$i} {
+		grid-column-start: span $i;
+	}
 }
