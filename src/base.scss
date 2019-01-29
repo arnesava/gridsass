@@ -1,3 +1,4 @@
+/*! GridKit - gridkit.io */
 $font-size: 18px;
 $c-title: hsl(0, 4%, 14%);
 $c-text: hsl(109, 0%, 26%);
@@ -5,6 +6,10 @@ $c-link: hsl(229, 97%, 55%);
 $font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, sans-serif;
 $font-mono: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', 'Roboto Mono', monospace;
 $wrapper-max: 1200px;
+
+html	{
+	font-size: $font-size;
+}
 
 body {
 	margin: 0;
@@ -43,25 +48,6 @@ textarea	{
 
 ul, ol {
 	padding: 1rem;
-}
-
-code,
-pre {
-	font-family: $font-mono;
-	font-size: 0.944rem;
-}
-
-code {
-	background: hsl(0, 0%, 94%);
-	padding: 0.1rem 0.3rem 0.1rem 0.1rem;
-}
-
-pre {
-	padding: 2rem;
-	max-width: 100%;
-	white-space: pre-wrap;
-	color: hsl(167, 1%, 45%);
-	background: hsl(0, 4%, 14%);
 }
 
 .clear:before,
