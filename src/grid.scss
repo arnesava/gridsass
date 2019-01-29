@@ -1,47 +1,42 @@
 $col-nr: 12;
 $col-gap: 1rem;
 
-.gk-grid {
+.grid {
 	display: grid;
 	grid-gap: $col-gap;
 	grid-template-columns: repeat($col-nr, 1fr);
 }
 
-/* - Stretch vertically */
-
-.gk-grid.stretch {
+/* -- Stretch vertically */
+.grid.stretch {
 	align-items: stretch; /* all the grid items in the same row will have the same height */
 }
 
-/* - Center vertically */
-
-.gk-grid.v-center {
+/* -- Center vertically */
+.grid.v-center {
 	align-items: center;
 }
 
-/* - Center horizontally */
-
-.gk-grid.h-center {
+/* -- Center horizontally */
+.grid.h-center {
 	justify-content: center;
 }
 
-/* - Column span */
-
+/* -- Column span */
 @for $i from 1 through $col-nr {
 	.col-span-#{$i} {
 		grid-column: span $i;
 	}
 }
 
-/* - Row span */
-
+/* -- Row span */
 @for $i from 1 through $col-nr {
 	.row-span-#{$i} {
 		grid-row: span $i;
 	}
 }
 
-/* - Column indent */
+/* -- Column indent */
 @for $i from 1 through $col-nr {
 	.col-start-#{$i} {
 		grid-column-start: span $i;
