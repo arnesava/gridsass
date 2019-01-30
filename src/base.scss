@@ -4,8 +4,11 @@ $c-title: hsl(0, 4%, 14%);
 $c-text: hsl(109, 0%, 26%);
 $c-link: hsl(229, 97%, 55%);
 $font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, sans-serif;
-$font-mono: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', 'Roboto Mono', monospace;
 $wrapper-max: 1200px;
+
+%transition	{
+	transition: all 0.3s ease-in-out;
+}
 
 html	{
 	font-size: $font-size;
@@ -65,7 +68,7 @@ a:active,
 a:visited,
 a:hover {
 	color: $c-link;
-	transition: all 0.3s ease-in-out;
+	@extend %transition;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -100,4 +103,12 @@ h6 {
 .wrapper {
 	margin: 0 auto;
 	max-width: $wrapper-max;
+}
+
+.center	{
+	text-align: center;
+}
+
+.right	{
+	text-align: right;
 }
