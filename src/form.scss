@@ -1,0 +1,39 @@
+$c-error: hsl(360, 61%, 43%);
+$c-ok: hsla(0, 0%, 6%, 0.1);
+$c-border: hsla(0, 0%, 6%, 0.12);
+$border: 1px;
+$b-radius: 20px;
+
+%form-item	{
+	border: $border solid $c-border;
+	padding: 0 0.4rem;
+	border-radius: $b-radius;
+	outline: none;
+	font-size: 0.944rem;
+	line-height: 1.8rem;
+	max-width: 100%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="url"],
+input[type="color"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="tel"],
+input[type="range"]	{
+	@extend %form-item;
+}
+
+textarea	{
+	@extend %form-item;
+	border-radius: ($b-radius / 2);
+	min-height: 6rem;
+	line-height: 1.2rem;
+}

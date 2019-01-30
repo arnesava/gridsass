@@ -39,7 +39,9 @@ body {
 }
 
 iframe,
-img {
+img,
+audio,
+video {
 	height: auto;
 	max-width: 100%;
 }

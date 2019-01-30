@@ -1,11 +1,12 @@
 $font-mono: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', 'Roboto Mono', monospace;
-$c-code: hsl(258, 19%, 14%);
-$bg-code: hsl(351, 16%, 95%);
+$c-code: hsl(195, 67%, 58%);
+$bg-code: hsl(205, 25%, 91%);
 $c-snippet: hsl(167, 100%, 95%);
 $bg-snippet: hsl(0, 4%, 14%);
 
-%code	{
+%code {
 	font-family: $font-mono;
+	font-weight: normal;
 	font-size: 0.944rem;
 	white-space: pre-wrap;
 	color: $c-snippet;
@@ -13,7 +14,7 @@ $bg-snippet: hsl(0, 4%, 14%);
 }
 
 code,
-pre {
+pre	{
 	@extend %code;
 }
 
@@ -26,7 +27,6 @@ code {
 pre {
 	padding: 2rem;
 	max-width: 100%;
-	@extend %code;
 
 	code {
 		@extend %code;
