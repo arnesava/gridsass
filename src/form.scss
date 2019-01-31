@@ -1,17 +1,22 @@
-$c-error: hsl(360, 61%, 43%);
-$c-ok: hsla(0, 0%, 6%, 0.1);
-$c-border: hsla(0, 0%, 6%, 0.12);
+$bg-error: hsl(0, 79%, 63%);
+$bg-ok: hsl(155, 72%, 41%);
+$bg-att: hsl(39, 97%, 61%);
+$bg-info: hsl(214, 67%, 65%);
+$c-border: hsla(0, 0%, 0%, 0.1);
+$bg-form: hsl(210, 69%, 95%);
 $border: 1px;
-$b-radius: 20px;
+$rounded: 4px;
 
 %form-item	{
-	border: $border solid $c-border;
+	border: $border solid transparent;
 	padding: 0 0.4rem;
-	border-radius: $b-radius;
+	margin: 0.2rem auto;
+	border-radius: $rounded;
 	outline: none;
-	font-size: 0.944rem;
-	line-height: 1.8rem;
+	font-size: 1rem;
+	line-height: 2.2rem;
 	max-width: 100%;
+	background: $bg-form;
 }
 
 input[type="text"],
@@ -27,13 +32,52 @@ input[type="month"],
 input[type="week"],
 input[type="time"],
 input[type="tel"],
-input[type="range"]	{
+input[type="range"],
+select	{
 	@extend %form-item;
+
+	&:hover, &:focus, &:active	{
+		border-color: $c-border;
+	}
 }
 
 textarea	{
 	@extend %form-item;
-	border-radius: ($b-radius / 2);
 	min-height: 6rem;
 	line-height: 1.2rem;
+
+	&:hover, &:focus	{
+		border-color: $c-border;
+	}
+}
+
+textarea.v-resize	{
+	resize: vertical;
+}
+
+textarea.noresize	{
+	resize: none;
+}
+
+.panel	{
+	border: $border solid hsla(0, 0%, 0%, 0.1);
+	margin: 1rem 0;
+	padding: 0.3rem 0.6rem;
+	color: hsla(0, 0%, 0%, 0.5);
+
+	&.ok	{
+		background: $bg-ok;
+	}
+
+	&.error	{
+		background: $bg-error;
+	}
+
+	&.info	{
+		background: $bg-info;
+	}
+
+	&.att	{
+		background: $bg-att;
+	}
 }
