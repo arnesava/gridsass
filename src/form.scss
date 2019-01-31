@@ -1,7 +1,7 @@
-$bg-error: hsl(0, 79%, 63%);
-$bg-ok: hsl(155, 72%, 41%);
-$bg-att: hsl(39, 97%, 61%);
-$bg-info: hsl(214, 67%, 65%);
+$bg-ok: hsl(158, 89%, 44%);
+$bg-error: hsl(0, 89%, 72%);
+$bg-att: hsl(39, 89%, 76%);
+$bg-info: hsl(190, 89%, 66%);
 $c-border: hsla(0, 0%, 0%, 0.1);
 $bg-form: hsl(210, 69%, 95%);
 $border: 1px;
@@ -60,10 +60,11 @@ textarea.noresize	{
 }
 
 .panel	{
-	border: $border solid hsla(0, 0%, 0%, 0.1);
+	border: $border solid hsla(0, 0%, 0%, 0.2);
+	border-left-width: 0.4rem;
 	margin: 1rem 0;
 	padding: 0.3rem 0.6rem;
-	color: hsla(0, 0%, 0%, 0.5);
+	color: hsla(0, 0%, 0%, 0.45);
 
 	&.ok	{
 		background: $bg-ok;
