@@ -1,11 +1,11 @@
 $bg-ok: hsl(149, 76%, 42%);
 $bg-error: hsl(2, 76%, 62%);
-$bg-att: hsl(39, 80%, 63%);
+$bg-att: hsl(39, 90%, 65%);
 $bg-info: hsl(215, 76%, 69%);
 $c-border: hsla(0, 0%, 0%, 0.1);
 $bg-form: hsl(210, 69%, 95%);
 $border: 1px;
-$rounded: 4px;
+$rounded: 3px;
 
 %form-item	{
 	border: $border solid transparent;
@@ -17,6 +17,12 @@ $rounded: 4px;
 	line-height: 2.2rem;
 	max-width: 100%;
 	background: $bg-form;
+}
+
+%disabled-input	{
+	border-color: hsla(0, 0%, 0%, 0.1);
+	background: hsla(0, 0%, 50%, 0.1);
+	pointer-events: none;
 }
 
 input[type="text"],
@@ -39,6 +45,10 @@ select	{
 	&:hover, &:focus, &:active	{
 		border-color: $c-border;
 	}
+
+	&.disabled	{
+		@extend %disabled-input;
+	}
 }
 
 textarea	{
@@ -48,6 +58,10 @@ textarea	{
 
 	&:hover, &:focus	{
 		border-color: $c-border;
+	}
+
+	&.disabled	{
+		@extend %disabled-input;
 	}
 }
 
@@ -85,7 +99,6 @@ textarea.noresize	{
 	&::before {
 		font-size: 1rem;
 		padding-right: 1rem;
-		color: hsla(0, 0%, 0%, 1);
 	}
 
 	&.error::before {
@@ -94,6 +107,7 @@ textarea.noresize	{
 
 	&.att::before {
 		content: "⚠️️️";
+		color: hsla(0, 0%, 0%, 1);
 	}
 
 	&.ok::before {
