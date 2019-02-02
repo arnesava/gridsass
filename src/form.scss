@@ -1,7 +1,7 @@
 $bg-ok: hsl(149, 76%, 42%);
 $bg-error: hsl(2, 76%, 62%);
-$bg-att: hsl(39, 76%, 66%);
-$bg-info: hsl(215, 76%, 62%);
+$bg-att: hsl(39, 80%, 63%);
+$bg-info: hsl(215, 76%, 69%);
 $c-border: hsla(0, 0%, 0%, 0.1);
 $bg-form: hsl(210, 69%, 95%);
 $border: 1px;
@@ -80,5 +80,27 @@ textarea.noresize	{
 
 	&.att	{
 		background: $bg-att;
+	}
+
+	&::before {
+		font-size: 1rem;
+		padding-right: 1rem;
+		color: hsla(0, 0%, 0%, 1);
+	}
+
+	&.error::before {
+		content: "❌️";
+	}
+
+	&.att::before {
+		content: "⚠️️️";
+	}
+
+	&.ok::before {
+		content: "✔️️";
+	}
+
+	&.info::before {
+		content: "❕️️";
 	}
 }
