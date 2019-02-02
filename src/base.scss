@@ -1,7 +1,7 @@
 /*! GridKit - gridkit.io */
 $font-size: 16px;
 $c-title: hsl(0, 4%, 14%);
-$c-text: hsl(109, 0%, 26%);
+$c-text: hsl(0, 4%, 30%);
 $c-link: hsl(229, 97%, 55%);
 $font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, sans-serif;
 $wrapper-max: 1200px;
@@ -26,16 +26,6 @@ body {
 *::before,
 *::after {
 	box-sizing: border-box;
-}
-
-::-webkit-input-placeholder {
-	color: $c-text;
-	opacity: 0.6;
-}
-
-::placeholder {
-	color: $c-text;
-	opacity: 0.6;
 }
 
 iframe,

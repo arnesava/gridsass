@@ -2,21 +2,23 @@ $bg-ok: hsl(149, 76%, 42%);
 $bg-error: hsl(2, 76%, 62%);
 $bg-att: hsl(39, 90%, 65%);
 $bg-info: hsl(215, 76%, 69%);
-$c-border: hsla(0, 0%, 0%, 0.1);
-$bg-form: hsl(210, 69%, 95%);
+$c-placeholder: hsl(215, 46%, 50%);
+$c-border: hsla(215, 76%, 50%, 0.2);
+$c-border-hover: hsla(215, 76%, 50%, 0.5);
+$bg-input: hsl(210, 69%, 99%);
+$bg-input-hover: hsl(0, 100%, 100%);
 $border: 1px;
-$rounded: 3px;
+$rounded-input: 3px;
 
 %form-item	{
-	border: $border solid transparent;
+	border: $border solid $c-border;
 	padding: 0 0.4rem;
 	margin: 0.2rem auto;
-	border-radius: $rounded;
 	outline: none;
 	font-size: 1rem;
 	line-height: 2.2rem;
 	max-width: 100%;
-	background: $bg-form;
+	background: $bg-input;
 }
 
 %disabled-input	{
@@ -43,11 +45,15 @@ select	{
 	@extend %form-item;
 
 	&:hover, &:focus, &:active	{
-		border-color: $c-border;
+		border-color: $c-border-hover;
 	}
 
 	&.disabled	{
 		@extend %disabled-input;
+	}
+
+	&.rounded	{
+		border-radius: $rounded-input;
 	}
 }
 
@@ -55,13 +61,18 @@ textarea	{
 	@extend %form-item;
 	min-height: 6rem;
 	line-height: 1.2rem;
+	padding: 0.4rem;
 
-	&:hover, &:focus	{
-		border-color: $c-border;
+	&:hover, &:focus, &:active	{
+		border-color: $c-border-hover;
 	}
 
 	&.disabled	{
 		@extend %disabled-input;
+	}
+
+	&.rounded	{
+		border-radius: $rounded-input;
 	}
 }
 
@@ -117,4 +128,14 @@ textarea.noresize	{
 	&.info::before {
 		content: "❕️️";
 	}
+}
+
+::-webkit-input-placeholder {
+	color: $c-placeholder;
+	opacity: 0.6;
+}
+
+::placeholder {
+	color: $c-placeholder;
+	opacity: 0.6;
 }
