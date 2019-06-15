@@ -2,15 +2,15 @@ $bg-ok: hsl(149, 76%, 42%);
 $bg-error: hsl(2, 76%, 62%);
 $bg-att: hsl(39, 90%, 65%);
 $bg-info: hsl(215, 76%, 69%);
-$c-placeholder: hsl(215, 46%, 50%);
-$c-border: hsla(215, 76%, 50%, 0.2);
-$c-border-hover: hsla(215, 76%, 50%, 0.5);
-$bg-input: hsl(210, 69%, 99%);
-$bg-input-hover: hsl(0, 100%, 100%);
+$c-placeholder: hsl(0, 4%, 30%);
+$c-border: hsl(0, 0%, 99%);
+$c-border-hover: hsl(0, 0%, 85%);
+$bg-input: hsl(0, 0%, 95%);
+$bg-input-hover: hsl(210, 69%, 96%);
 $border: 1px;
 $rounded-input: 3px;
 
-%form-item	{
+%form-item {
 	border: $border solid $c-border;
 	padding: 0 0.4rem;
 	margin: 0.2rem auto;
@@ -21,10 +21,18 @@ $rounded-input: 3px;
 	background: $bg-input;
 }
 
-%disabled-input	{
+%disabled-input {
 	border-color: hsla(0, 0%, 0%, 0.1);
-	background: hsla(0, 0%, 50%, 0.1);
 	pointer-events: none;
+	background:
+	repeating-linear-gradient(
+					-45deg,
+					hsla(0, 0%, 50%, 0),
+					hsla(0, 0%, 50%, 0) 50%,
+					hsla(0, 0%, 50%, 0.2) 50%,
+					hsla(0, 0%, 50%, 0.2) calc(50% + 1px),
+					hsla(0, 0%, 50%, 0) calc(50% + 2px),
+					hsla(0, 0%, 50%, 0) 60%);
 }
 
 input[type="text"],
@@ -41,69 +49,71 @@ input[type="week"],
 input[type="time"],
 input[type="tel"],
 input[type="range"],
-select	{
+select {
 	@extend %form-item;
 
-	&:hover, &:focus, &:active	{
+	&:hover, &:focus, &:active {
 		border-color: $c-border-hover;
+		background: $bg-input-hover;
 	}
 
-	&.disabled	{
+	&.disabled {
 		@extend %disabled-input;
 	}
 
-	&.rounded	{
+	&.rounded {
 		border-radius: $rounded-input;
 	}
 }
 
-textarea	{
+textarea {
 	@extend %form-item;
 	min-height: 6rem;
 	line-height: 1.2rem;
 	padding: 0.4rem;
 
-	&:hover, &:focus, &:active	{
+	&:hover, &:focus, &:active {
 		border-color: $c-border-hover;
+		background: $bg-input-hover;
 	}
 
-	&.disabled	{
+	&.disabled {
 		@extend %disabled-input;
 	}
 
-	&.rounded	{
+	&.rounded {
 		border-radius: $rounded-input;
 	}
 }
 
-textarea.v-resize	{
+textarea.v-resize {
 	resize: vertical;
 }
 
-textarea.noresize	{
+textarea.noresize {
 	resize: none;
 }
 
-.panel	{
-	border: $border solid hsla(0, 0%, 0%, 0.2);
+.panel {
+	border: 1px solid hsla(0, 0%, 0%, 0.1);
 	border-left-width: 0.4rem;
 	margin: 1rem 0;
 	padding: 0.3rem 0.6rem;
-	color: hsla(0, 0%, 0%, 0.45);
+	color: hsla(0, 0%, 0%, 0.6);
 
-	&.ok	{
+	&.ok {
 		background: $bg-ok;
 	}
 
-	&.error	{
+	&.error {
 		background: $bg-error;
 	}
 
-	&.info	{
+	&.info {
 		background: $bg-info;
 	}
 
-	&.att	{
+	&.att {
 		background: $bg-att;
 	}
 
@@ -138,4 +148,11 @@ textarea.noresize	{
 ::placeholder {
 	color: $c-placeholder;
 	opacity: 0.6;
+}
+
+fieldset {
+	border: $border solid $c-border-hover;
+
+	legend {
+	}
 }
