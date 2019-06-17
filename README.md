@@ -2,6 +2,8 @@
 
 Ultralight performance-oriented modular CSS framework based on [CSS grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).
 
+[![Build Status](https://travis-ci.org/alinacsava/GridKit.io.svg?branch=master)](https://travis-ci.org/alinacsava/GridKit.io)
+
 ## Install
 
 ### NPM
