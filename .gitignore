@@ -8,3 +8,4 @@ config.codekit3
 #Misc
 index.html
 dist/
+node_modules/
