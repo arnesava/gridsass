@@ -1,3 +1,4 @@
-language: sass
-install:
-  - yarn
+language: node.js
+node_js:
+  - "10"
+
