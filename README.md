@@ -3,6 +3,7 @@
 Ultralight performance-oriented modular CSS framework based on [CSS grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).
 
 [![Build Status](https://travis-ci.org/alinacsava/GridKit.io.svg?branch=master)](https://travis-ci.org/alinacsava/GridKit.io)
+[![Node version](https://img.shields.io/node/v/gridkitio.svg?style=flat)](http://nodejs.org/download/)
 
 ## Install
 
@@ -13,24 +14,6 @@ TODO
 ```
 
 ### Yarn
-
-```sh
-TODO
-```
-
-### Bower
-
-```sh
-TODO
-```
-
-### Import
-
-```sh
-TODO
-```
-
-### CDN
 
 ```sh
 TODO
