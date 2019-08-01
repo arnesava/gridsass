@@ -16,7 +16,7 @@ npm install gridkitio
 ### Yarn
 
 ```sh
-yarn install gridkitio
+yarn add gridkitio
 ```
 
 ## Browser Support
