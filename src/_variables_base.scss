@@ -1,0 +1,45 @@
+// Typography
+$font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Helvetica, "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", Arial, sans-serif;
+$font-size: 16px;
+$line-height: 1.6;
+
+// Container/Wrapper
+$wrapper-max: 1200px;
+
+// Spacing
+$gap: 2rem;
+
+// Colors
+$c-title: hsl(0, 4%, 14%);
+$c-text: hsl(0, 4%, 30%);
+$c-link: hsl(229, 97%, 55%);
+
+// Border-radius
+$radius: 3px;
+$rounded: 20px;
+$round: 50%;
+
+// RWD Breakpoints
+$breakpoint-wide: 2000px;
+$breakpoint-desktop: 1200px;
+$breakpoint-tablet: 1199px;
+$breakpoint-mobile: 960px;
+
+// Extensions
+%transition {
+    transition: all 0.3s ease-in-out;
+}
+
+%shadow {
+    box-shadow: hsla(0, 0%, 0%, 0.08) 0 1px 2px,
+        hsla(0, 0%, 0%, 0.04) 0 5px 12px;
+    background: hsla(0, 0%, 100%, 1);
+}
+
+%border {
+    border: 1px solid;
+    border-color: hsla(38, 14%, 96%, 1) hsla(38, 14%, 92%, 1)
+        hsla(38, 14%, 82%, 1) hsla(38, 14%, 92%, 1);
+}

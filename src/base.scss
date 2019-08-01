@@ -1,106 +1,103 @@
 /*! GridKit - gridkit.io */
-$font-size: 16px;
-$c-title: hsl(0, 4%, 14%);
-$c-text: hsl(0, 4%, 30%);
-$c-link: hsl(229, 97%, 55%);
-$font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, sans-serif;
-$wrapper-max: 1200px;
+@import "variables_base";
 
-%transition	{
-	transition: all 0.3s ease-in-out;
-}
-
-html	{
-	font-size: $font-size;
+html {
+    font-size: $font-size;
 }
 
 body {
-	margin: 0;
-	font-size: 1rem;
-	line-height: 1.8;
-	color: $c-text;
-	font-family: $font;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: $c-text;
+    font-family: $font;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 iframe,
 img,
 audio,
 video {
-	height: auto;
-	max-width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 
 input,
-textarea	{
-	font-family: $font;
+textarea {
+    font-family: $font;
 }
 
-ul, ol {
-	padding: 1rem;
+ul,
+ol {
+    padding: 1rem;
 }
 
 .clear:before,
 .clear:after {
-	content: "";
-	display: table;
+    content: "";
+    display: table;
 }
 
 .clear:after {
-	clear: both;
+    clear: both;
 }
 
 a,
 a:active,
 a:visited,
 a:hover {
-	color: $c-link;
-	@extend %transition;
+    color: $c-link;
+    @extend %transition;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	color: $c-title;
-	margin: 1em 0 0.5em 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $c-title;
+    margin: 1em 0 0.5em 0;
 }
 
 h1 {
-	font-size: 2.2rem;
+    font-size: 2.2rem;
 }
 
 h2 {
-	font-size: 2rem;
+    font-size: 2rem;
 }
 
 h3 {
-	font-size: 1.7rem;
+    font-size: 1.7rem;
 }
 
 h4 {
-	font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 h5 {
-	font-size: 1.3rem;
+    font-size: 1.3rem;
 }
 
 h6 {
-	font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 
 .wrapper {
-	margin: 0 auto;
-	max-width: $wrapper-max;
+    margin: 0 auto;
+    max-width: $wrapper-max;
 }
 
-.center	{
-	text-align: center;
+.center {
+    text-align: center;
 }
 
-.right	{
-	text-align: right;
+.right {
+    text-align: right;
 }
