@@ -37,7 +37,7 @@ Also works with recent versions of mobile browsers:
 ## Documentation
 
 ```sh
-UNDER CONSTRUCTION! [Browse online documentation](https://gridkit.io/docs/)
+UNDER CONSTRUCTION
 ```
 
 ## Copyright and license
