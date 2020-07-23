@@ -9,3 +9,30 @@ $bg-input: hsl(0, 0%, 95%);
 $bg-input-hover: hsl(210, 69%, 96%);
 $border: 1px;
 $rounded-input: 3px;
+
+// Extensions
+
+%form-item {
+    border: $border solid $c-border;
+    padding: 0 0.4rem;
+    margin: 0.2rem auto;
+    outline: none;
+    font-size: 1rem;
+    line-height: 2.2rem;
+    max-width: 100%;
+    background: $bg-input;
+}
+
+%disabled-input {
+    border-color: hsla(0, 0%, 0%, 0.1);
+    pointer-events: none;
+    background: repeating-linear-gradient(
+        -45deg,
+        hsla(0, 0%, 50%, 0),
+        hsla(0, 0%, 50%, 0) 50%,
+        hsla(0, 0%, 50%, 0.2) 50%,
+        hsla(0, 0%, 50%, 0.2) calc(50% + 1px),
+        hsla(0, 0%, 50%, 0) calc(50% + 2px),
+        hsla(0, 0%, 50%, 0) 60%
+    );
+}
