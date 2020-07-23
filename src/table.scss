@@ -1,14 +1,15 @@
-/* - Table styles */
-
-table, th, td {
-	border: 1px solid hsl(0, 0%, 84%);
-	border-collapse: collapse;
+table,
+th,
+td {
+    border: 1px solid hsl(0, 0%, 84%);
+    border-collapse: collapse;
 }
 
-th, td {
-	padding: 0.5rem;
+th,
+td {
+    padding: 0.5rem;
 }
 
 th {
-	background: hsl(0, 0%, 97%);
+    background: hsl(0, 0%, 97%);
 }
