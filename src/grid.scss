@@ -1,10 +1,11 @@
 $grid-col-nr: 12;
 $grid-col-gap: 1rem;
-$col-gap: 1rem;
+$grid-row-gap: 1rem;
 
 .grid {
     display: grid;
-    grid-gap: $col-gap;
+    grid-column-gap: $grid-col-gap;
+    grid-row-gap: $grid-row-gap;
     grid-template-columns: repeat($grid-col-nr, 1fr);
 }
 
