@@ -1,44 +1,45 @@
-$col-nr: 12;
+$grid-col-nr: 12;
+$col-gap: 1rem;
 $col-gap: 1rem;
 
 .grid {
-	display: grid;
-	grid-gap: $col-gap;
-	grid-template-columns: repeat($col-nr, 1fr);
+    display: grid;
+    grid-gap: $col-gap;
+    grid-template-columns: repeat($grid-col-nr, 1fr);
 }
 
 // Stretch grid items vertically
 .grid.stretch {
-	align-items: stretch; /* all the grid items in the same row will have the same height */
+    align-items: stretch; /* all the grid items in the same row will have the same height */
 }
 
 // Center grid items vertically
 .grid.v-center {
-	align-items: center;
+    align-items: center;
 }
 
 // Center grid items horizontally
 .grid.h-center {
-	justify-content: center;
+    justify-content: center;
 }
 
 // Grid item column span
-@for $i from 1 through $col-nr {
-	.col-span-#{$i} {
-		grid-column: span $i;
-	}
+@for $i from 1 through $grid-col-nr {
+    .col-span-#{$i} {
+        grid-column: span $i;
+    }
 }
 
 // Grid item row span
-@for $i from 1 through $col-nr {
-	.row-span-#{$i} {
-		grid-row: span $i;
-	}
+@for $i from 1 through $grid-col-nr {
+    .row-span-#{$i} {
+        grid-row: span $i;
+    }
 }
 
 // Grid item indent
-@for $i from 1 through $col-nr {
-	.col-start-#{$i} {
-		grid-column-start: span $i;
-	}
+@for $i from 1 through $grid-col-nr {
+    .col-start-#{$i} {
+        grid-column-start: span $i;
+    }
 }
