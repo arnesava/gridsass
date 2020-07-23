@@ -1,19 +1,4 @@
-$font-mono: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", "Roboto Mono",
-    monospace;
-$c-code: hsla(231, 48%, 48%, 1);
-$bg-code: hsl(0, 100%, 100%);
-$c-snippet: hsl(205, 25%, 71%);
-$bg-snippet: hsl(0, 4%, 14%);
-
-%code {
-    font-family: $font-mono;
-    font-weight: normal;
-    font-size: 0.938rem;
-    white-space: pre-wrap;
-    color: $c-snippet;
-    background: $bg-snippet;
-    outline: none;
-}
+@import "variables_code";
 
 code,
 pre {
