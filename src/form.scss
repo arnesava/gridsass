@@ -1,38 +1,33 @@
-$bg-ok: hsl(149, 76%, 42%);
-$bg-error: hsl(2, 76%, 62%);
-$bg-att: hsl(39, 90%, 65%);
-$bg-info: hsl(215, 76%, 69%);
-$c-placeholder: hsl(0, 4%, 30%);
-$c-border: hsl(0, 0%, 99%);
-$c-border-hover: hsl(0, 0%, 85%);
-$bg-input: hsl(0, 0%, 95%);
-$bg-input-hover: hsl(210, 69%, 96%);
-$border: 1px;
-$rounded-input: 3px;
+@import "variables_form";
 
 %form-item {
-	border: $border solid $c-border;
-	padding: 0 0.4rem;
-	margin: 0.2rem auto;
-	outline: none;
-	font-size: 1rem;
-	line-height: 2.2rem;
-	max-width: 100%;
-	background: $bg-input;
+    border: $border solid $c-border;
+    padding: 0 0.4rem;
+    margin: 0.2rem auto;
+    outline: none;
+    font-size: 1rem;
+    line-height: 2.2rem;
+    max-width: 100%;
+    background: $bg-input;
 }
 
 %disabled-input {
-	border-color: hsla(0, 0%, 0%, 0.1);
-	pointer-events: none;
-	background:
-	repeating-linear-gradient(
-					-45deg,
-					hsla(0, 0%, 50%, 0),
-					hsla(0, 0%, 50%, 0) 50%,
-					hsla(0, 0%, 50%, 0.2) 50%,
-					hsla(0, 0%, 50%, 0.2) calc(50% + 1px),
-					hsla(0, 0%, 50%, 0) calc(50% + 2px),
-					hsla(0, 0%, 50%, 0) 60%);
+    border-color: hsla(0, 0%, 0%, 0.1);
+    pointer-events: none;
+    background: repeating-linear-gradient(
+        -45deg,
+        hsla(0, 0%, 50%, 0),
+        hsla(0, 0%, 50%, 0) 50%,
+        hsla(0, 0%, 50%, 0.2) 50%,
+        hsla(0, 0%, 50%, 0.2) calc(50% + 1px),
+        hsla(0, 0%, 50%, 0) calc(50% + 2px),
+        hsla(0, 0%, 50%, 0) 60%
+    );
+}
+
+input,
+textarea {
+    //font-family: $font;
 }
 
 input[type="text"],
@@ -50,109 +45,113 @@ input[type="time"],
 input[type="tel"],
 input[type="range"],
 select {
-	@extend %form-item;
+    @extend %form-item;
 
-	&:hover, &:focus, &:active {
-		border-color: $c-border-hover;
-		background: $bg-input-hover;
-	}
+    &:hover,
+    &:focus,
+    &:active {
+        border-color: $c-border-hover;
+        background: $bg-input-hover;
+    }
 
-	&.disabled {
-		@extend %disabled-input;
-	}
+    &.disabled {
+        @extend %disabled-input;
+    }
 
-	&.rounded {
-		border-radius: $rounded-input;
-	}
+    &.rounded {
+        border-radius: $rounded-input;
+    }
 }
 
 textarea {
-	@extend %form-item;
-	min-height: 6rem;
-	line-height: 1.2rem;
-	padding: 0.4rem;
+    @extend %form-item;
+    min-height: 6rem;
+    line-height: 1.2rem;
+    padding: 0.4rem;
 
-	&:hover, &:focus, &:active {
-		border-color: $c-border-hover;
-		background: $bg-input-hover;
-	}
+    &:hover,
+    &:focus,
+    &:active {
+        border-color: $c-border-hover;
+        background: $bg-input-hover;
+    }
 
-	&.disabled {
-		@extend %disabled-input;
-	}
+    &.disabled {
+        @extend %disabled-input;
+    }
 
-	&.rounded {
-		border-radius: $rounded-input;
-	}
+    &.rounded {
+        border-radius: $rounded-input;
+    }
 }
 
 textarea.v-resize {
-	resize: vertical;
+    resize: vertical;
 }
 
 textarea.noresize {
-	resize: none;
+    resize: none;
 }
 
 .panel {
-	border: 1px solid hsla(0, 0%, 0%, 0.1);
-	border-left-width: 0.4rem;
-	margin: 1rem 0;
-	padding: 0.3rem 0.6rem;
-	color: hsla(0, 0%, 0%, 0.6);
+    border: 1px solid hsla(0, 0%, 0%, 0.1);
+    border-left-width: 0.4rem;
+    margin: 1rem 0;
+    padding: 0.3rem 0.6rem;
+    color: hsla(0, 0%, 0%, 0.6);
 
-	&.ok {
-		background: $bg-ok;
-	}
+    &.ok {
+        background: $bg-ok;
+    }
 
-	&.error {
-		background: $bg-error;
-	}
+    &.error {
+        background: $bg-error;
+    }
 
-	&.info {
-		background: $bg-info;
-	}
+    &.info {
+        background: $bg-info;
+    }
 
-	&.att {
-		background: $bg-att;
-	}
+    &.att {
+        background: $bg-att;
+    }
 
-	&::before {
-		font-size: 1rem;
-		padding-right: 1rem;
-	}
+    &::before {
+        font-size: 1rem;
+        padding-right: 1rem;
+    }
 
-	&.error::before {
-		content: "❌️";
-	}
+    &.error::before {
+        content: "❌️";
+    }
 
-	&.att::before {
-		content: "⚠️️️";
-		color: hsla(0, 0%, 0%, 1);
-	}
+    &.att::before {
+        content: "⚠️️️";
+        color: hsla(0, 0%, 0%, 1);
+    }
 
-	&.ok::before {
-		content: "✔️️";
-	}
+    &.ok::before {
+        content: "✔️️";
+    }
 
-	&.info::before {
-		content: "❕️️";
-	}
+    &.info::before {
+        content: "❕️️";
+    }
 }
 
 ::-webkit-input-placeholder {
-	color: $c-placeholder;
-	opacity: 0.6;
+    color: $c-placeholder;
+    opacity: 0.6;
 }
 
 ::placeholder {
-	color: $c-placeholder;
-	opacity: 0.6;
+    color: $c-placeholder;
+    opacity: 0.6;
 }
 
 fieldset {
-	border: $border solid $c-border-hover;
+    border: $border solid $c-border-hover;
 
-	legend {
-	}
+    legend {
+    }
 }
