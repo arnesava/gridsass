@@ -30,7 +30,7 @@ CSS grid works in all modern browsers (See full browser compatibility on [canius
 -   Opera
 -   Edge 16+
 
-Also works with recent versions of mobile browsers:
+Mobile browsers:
 
 -   iOS: Safari, Chrome
 -   Android: Android Browser, Chrome, Firefox, Samsung, Opera Mobile, UC Browser
