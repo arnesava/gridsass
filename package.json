@@ -45,7 +45,8 @@
         "css-loader": "^3.4.0",
         "lodash": "^4.17.15",
         "serialize-javascript": "^4.0.0",
-        "terser-webpack-plugin": "^4.1.0"
+        "terser-webpack-plugin": "^4.1.0",
+        "yargs-parser": "20.2.1"
     },
     "husky": {
         "hooks": {
