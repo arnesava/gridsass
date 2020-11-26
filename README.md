@@ -42,7 +42,10 @@ Mobile browsers:
 UNDER CONSTRUCTION
 ```
 
+[npmjs.com/package/gridkitio](https://www.npmjs.com/package/gridkitio)
+
 ## Copyright and license
 
-GridKit code &copy; 2019 [Alina Sava](https://sava.io).
+GridKit code &copy; 2019 [Alina Sava](https://sava.io) — [Buy Me a Coffee](https://www.buymeacoffee.com/alina)
+
 Released under [the MIT license](https://github.com/alinacsava/gridkit/blob/master/LICENSE).
