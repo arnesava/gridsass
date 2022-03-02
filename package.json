@@ -44,7 +44,7 @@
         "cosmiconfig": "^6.0.0",
         "css-loader": "^3.4.0",
         "lodash": "^4.17.15",
-        "postcss": "8.2.10",
+        "postcss": "8.2.13",
         "serialize-javascript": "^4.0.0",
         "terser-webpack-plugin": "^4.1.0",
         "yargs-parser": "20.2.1"
