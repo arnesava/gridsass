@@ -44,6 +44,6 @@ UNDER CONSTRUCTION
 
 ## Copyright and license
 
-GridKit code &copy; 2019 [Alina Sava](https://sava.io) — [Buy Me a Coffee](https://www.buymeacoffee.com/alina)
+GridKit code &copy; 2019 [Alle Sava](https://sava.io) — [Buy Me a Coffee](https://www.buymeacoffee.com/allesava)
 
 Released under [the MIT license](https://github.com/alinacsava/gridkit/blob/master/LICENSE).
