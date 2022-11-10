@@ -3,13 +3,13 @@
     "version": "0.2.8",
     "homepage": "https://gridkit.io",
     "author": {
-        "name": "Alina Sava",
-        "email": "alina@sava.io",
+        "name": "Alle Sava",
+        "email": "a@sava.io",
         "url": "https://sava.io"
     },
     "description": "[WIP] Ultralight performance-oriented modular CSS framework based on CSS grid.",
     "main": "index.js",
-    "repository": "alinacsava/gridkitio",
+    "repository": "allesava/gridkitio",
     "license": "MIT",
     "scripts": {
         "dev": "webpack --mode development ./src/index.js --output ./dist/main.js",
@@ -25,7 +25,7 @@
         "responsive"
     ],
     "bugs": {
-        "url": "https://github.com/alinacsava/gridkitio/issues"
+        "url": "https://github.com/allesava/gridkitio/issues"
     },
     "devDependencies": {
         "husky": "^3.1.0",

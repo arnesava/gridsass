@@ -1,6 +1,6 @@
 [WIP] Ultralight performance-oriented modular CSS framework based on [CSS grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).
 
-[![Build Status](https://travis-ci.org/alinacsava/gridkit.svg?branch=master)](https://travis-ci.org/alinacsava/GridKit.io)
+[![Build Status](https://travis-ci.org/allesava/gridkit.svg?branch=master)](https://travis-ci.org/allesava/GridKit.io)
 ![npm](https://img.shields.io/npm/v/gridkitio.svg?color=%230366d6)
 ![NPM](https://img.shields.io/npm/l/gridkitio)
 
@@ -46,4 +46,4 @@ UNDER CONSTRUCTION
 
 GridKit code &copy; 2019 [Alle Sava](https://sava.io) — [Buy Me a Coffee](https://www.buymeacoffee.com/allesava)
 
-Released under [the MIT license](https://github.com/alinacsava/gridkit/blob/master/LICENSE).
+Released under [the MIT license](https://github.com/allesava/gridkit/blob/master/LICENSE).
