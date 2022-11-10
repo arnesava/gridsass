@@ -1,35 +1,21 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const OptimizeCSSAssetsPlugin = require("css-minimizer-webpack-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+
 module.exports = {
-    optimization: {
-        minimizer: [
-            new OptimizeCSSAssetsPlugin({
-                cssProcessorPluginOptions: {
-                    preset: ["default", { colormin: false }]
-                }
-            })
-        ]
-    },
-    plugins: [
-        new MiniCssExtractPlugin({
-            filename: "gridkit.css",
-            chunkFilename: "[id].css"
-        })
-    ],
     module: {
         rules: [
             {
-                test: /\.css$/,
-                use: [MiniCssExtractPlugin.loader, "css-loader"]
+                test: /.s?css$/,
+                use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
             },
-            {
-                test: /\.scss$/,
-                use: [
-                    "style-loader", // creates style nodes from JS strings
-                    "css-loader", // translates CSS into CommonJS
-                    "sass-loader" // compiles Sass to CSS, using Node Sass by default
-                ]
-            }
-        ]
-    }
+        ],
+    },
+    optimization: {
+        minimizer: [
+            // For webpack@5 you can use the `...` syntax to extend existing minimizers (i.e. `terser-webpack-plugin`), uncomment the next line
+            // `...`,
+            new CssMinimizerPlugin(),
+        ],
+    },
+    plugins: [new MiniCssExtractPlugin()],
 };
