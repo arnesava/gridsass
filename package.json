@@ -12,9 +12,9 @@
     "repository": "allesava/gridkitio",
     "license": "MIT",
     "scripts": {
-        "dev": "webpack --mode development ./src/index.js --output ./dist/main.js",
-        "test": "webpack --mode development ./src/index.js --output ./dist/main.js",
-        "build": "webpack --mode production ./src/index.js --output ./dist/main.js"
+        "dev": "webpack --mode development ./src/index.js --output-path ./dist/main.js",
+        "test": "webpack --mode development ./src/index.js --output-path ./dist/main.js",
+        "build": "webpack --mode production ./src/index.js --output-path ./dist/main.js"
     },
     "keywords": [
         "css",
