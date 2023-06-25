@@ -46,7 +46,7 @@
         "lodash": "^4.17.15",
         "postcss": "^8.4.7",
         "serialize-javascript": "^4.0.0",
-        "terser-webpack-plugin": "^4.1.0",
+        "terser-webpack-plugin": "^5.3.9",
         "yargs-parser": "20.2.1"
     },
     "husky": {
