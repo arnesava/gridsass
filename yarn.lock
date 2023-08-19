@@ -28,17 +28,17 @@
   version "1.1.3"
   resolved "https://registry.npmjs.org/@gar/promisify/-/promisify-1.1.3.tgz"
 
-"@jest/schemas@^29.0.0":
-  version "29.0.0"
-  resolved "https://registry.npmjs.org/@jest/schemas/-/schemas-29.0.0.tgz"
+"@jest/schemas@^29.4.3":
+  version "29.4.3"
+  resolved "https://registry.yarnpkg.com/@jest/schemas/-/schemas-29.4.3.tgz#39cf1b8469afc40b6f5a2baaa146e332c4151788"
   dependencies:
-    "@sinclair/typebox" "^0.24.1"
+    "@sinclair/typebox" "^0.25.16"
 
-"@jest/types@^29.3.1":
-  version "29.3.1"
-  resolved "https://registry.npmjs.org/@jest/types/-/types-29.3.1.tgz"
+"@jest/types@^29.5.0":
+  version "29.5.0"
+  resolved "https://registry.yarnpkg.com/@jest/types/-/types-29.5.0.tgz#f59ef9b031ced83047c67032700d8c807d6e1593"
   dependencies:
-    "@jest/schemas" "^29.0.0"
+    "@jest/schemas" "^29.4.3"
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/istanbul-reports" "^3.0.0"
     "@types/node" "*"
@@ -93,9 +93,9 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@sinclair/typebox@^0.24.1":
-  version "0.24.51"
-  resolved "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.24.51.tgz"
+"@sinclair/typebox@^0.25.16":
+  version "0.25.24"
+  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.25.24.tgz#8c7688559979f7079aacaf31aa881c3aa410b718"
 
 "@trysound/sax@0.2.0":
   version "0.2.0"
@@ -146,10 +146,6 @@
 "@types/node@*":
   version "18.11.9"
   resolved "https://registry.npmjs.org/@types/node/-/node-18.11.9.tgz"
-
-"@types/parse-json@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz"
 
 "@types/yargs-parser@*":
   version "21.0.0"
@@ -357,6 +353,10 @@ anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
+argparse@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
+
 array-differ@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/array-differ/-/array-differ-3.0.0.tgz"
@@ -394,7 +394,7 @@ braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
-browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.16.6, browserslist@^4.21.4:
+browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.21.4:
   version "4.21.4"
   resolved "https://registry.npmjs.org/browserslist/-/browserslist-4.21.4.tgz"
   dependencies:
@@ -551,15 +551,14 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
 
-cosmiconfig@^7.0.0:
-  version "7.0.1"
-  resolved "https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-7.0.1.tgz"
+cosmiconfig@^8.1.3:
+  version "8.1.3"
+  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-8.1.3.tgz#0e614a118fcc2d9e5afc2f87d53cd09931015689"
   dependencies:
-    "@types/parse-json" "^4.0.0"
     import-fresh "^3.2.1"
+    js-yaml "^4.1.0"
     parse-json "^5.0.0"
     path-type "^4.0.0"
-    yaml "^1.10.0"
 
 cross-spawn@^7.0.0, cross-spawn@^7.0.3:
   version "7.0.3"
@@ -586,119 +585,125 @@ css-loader@^6.0.0:
     postcss-value-parser "^4.2.0"
     semver "^7.3.5"
 
-css-minimizer-webpack-plugin@^4.2.2:
-  version "4.2.2"
-  resolved "https://registry.npmjs.org/css-minimizer-webpack-plugin/-/css-minimizer-webpack-plugin-4.2.2.tgz"
+css-minimizer-webpack-plugin@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/css-minimizer-webpack-plugin/-/css-minimizer-webpack-plugin-5.0.0.tgz#a2c2d1bc5cc37450519e873e13d942bbe4478ef5"
   dependencies:
-    cssnano "^5.1.8"
-    jest-worker "^29.1.2"
-    postcss "^8.4.17"
+    cssnano "^6.0.0"
+    jest-worker "^29.4.3"
+    postcss "^8.4.21"
     schema-utils "^4.0.0"
-    serialize-javascript "^6.0.0"
+    serialize-javascript "^6.0.1"
     source-map "^0.6.1"
 
-css-select@^4.1.3:
-  version "4.3.0"
-  resolved "https://registry.npmjs.org/css-select/-/css-select-4.3.0.tgz"
+css-select@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/css-select/-/css-select-5.1.0.tgz#b8ebd6554c3637ccc76688804ad3f6a6fdaea8a6"
   dependencies:
     boolbase "^1.0.0"
-    css-what "^6.0.1"
-    domhandler "^4.3.1"
-    domutils "^2.8.0"
+    css-what "^6.1.0"
+    domhandler "^5.0.2"
+    domutils "^3.0.1"
     nth-check "^2.0.1"
 
-css-tree@^1.1.2, css-tree@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.npmjs.org/css-tree/-/css-tree-1.1.3.tgz"
+css-tree@^2.2.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-2.3.1.tgz#10264ce1e5442e8572fc82fbe490644ff54b5c20"
   dependencies:
-    mdn-data "2.0.14"
-    source-map "^0.6.1"
+    mdn-data "2.0.30"
+    source-map-js "^1.0.1"
 
-css-what@^6.0.1:
+css-tree@~2.2.0:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-2.2.1.tgz#36115d382d60afd271e377f9c5f67d02bd48c032"
+  dependencies:
+    mdn-data "2.0.28"
+    source-map-js "^1.0.1"
+
+css-what@^6.1.0:
   version "6.1.0"
-  resolved "https://registry.npmjs.org/css-what/-/css-what-6.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/css-what/-/css-what-6.1.0.tgz#fb5effcf76f1ddea2c81bdfaa4de44e79bac70f4"
 
 cssesc@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz"
 
-cssnano-preset-default@^5.2.13:
-  version "5.2.13"
-  resolved "https://registry.npmjs.org/cssnano-preset-default/-/cssnano-preset-default-5.2.13.tgz"
+cssnano-preset-default@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/cssnano-preset-default/-/cssnano-preset-default-6.0.0.tgz#058726536bdc18711c01b1d328766cbc5691cf71"
   dependencies:
     css-declaration-sorter "^6.3.1"
-    cssnano-utils "^3.1.0"
+    cssnano-utils "^4.0.0"
     postcss-calc "^8.2.3"
-    postcss-colormin "^5.3.0"
-    postcss-convert-values "^5.1.3"
-    postcss-discard-comments "^5.1.2"
-    postcss-discard-duplicates "^5.1.0"
-    postcss-discard-empty "^5.1.1"
-    postcss-discard-overridden "^5.1.0"
-    postcss-merge-longhand "^5.1.7"
-    postcss-merge-rules "^5.1.3"
-    postcss-minify-font-values "^5.1.0"
-    postcss-minify-gradients "^5.1.1"
-    postcss-minify-params "^5.1.4"
-    postcss-minify-selectors "^5.2.1"
-    postcss-normalize-charset "^5.1.0"
-    postcss-normalize-display-values "^5.1.0"
-    postcss-normalize-positions "^5.1.1"
-    postcss-normalize-repeat-style "^5.1.1"
-    postcss-normalize-string "^5.1.0"
-    postcss-normalize-timing-functions "^5.1.0"
-    postcss-normalize-unicode "^5.1.1"
-    postcss-normalize-url "^5.1.0"
-    postcss-normalize-whitespace "^5.1.1"
-    postcss-ordered-values "^5.1.3"
-    postcss-reduce-initial "^5.1.1"
-    postcss-reduce-transforms "^5.1.0"
-    postcss-svgo "^5.1.0"
-    postcss-unique-selectors "^5.1.1"
+    postcss-colormin "^6.0.0"
+    postcss-convert-values "^6.0.0"
+    postcss-discard-comments "^6.0.0"
+    postcss-discard-duplicates "^6.0.0"
+    postcss-discard-empty "^6.0.0"
+    postcss-discard-overridden "^6.0.0"
+    postcss-merge-longhand "^6.0.0"
+    postcss-merge-rules "^6.0.0"
+    postcss-minify-font-values "^6.0.0"
+    postcss-minify-gradients "^6.0.0"
+    postcss-minify-params "^6.0.0"
+    postcss-minify-selectors "^6.0.0"
+    postcss-normalize-charset "^6.0.0"
+    postcss-normalize-display-values "^6.0.0"
+    postcss-normalize-positions "^6.0.0"
+    postcss-normalize-repeat-style "^6.0.0"
+    postcss-normalize-string "^6.0.0"
+    postcss-normalize-timing-functions "^6.0.0"
+    postcss-normalize-unicode "^6.0.0"
+    postcss-normalize-url "^6.0.0"
+    postcss-normalize-whitespace "^6.0.0"
+    postcss-ordered-values "^6.0.0"
+    postcss-reduce-initial "^6.0.0"
+    postcss-reduce-transforms "^6.0.0"
+    postcss-svgo "^6.0.0"
+    postcss-unique-selectors "^6.0.0"
 
-cssnano-utils@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/cssnano-utils/-/cssnano-utils-3.1.0.tgz"
+cssnano-utils@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/cssnano-utils/-/cssnano-utils-4.0.0.tgz#d1da885ec04003ab19505ff0e62e029708d36b08"
 
-cssnano@^5.1.8:
-  version "5.1.14"
-  resolved "https://registry.npmjs.org/cssnano/-/cssnano-5.1.14.tgz"
+cssnano@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-6.0.0.tgz#53f4cb81101cccba0809fad779f006b5d44925ee"
   dependencies:
-    cssnano-preset-default "^5.2.13"
-    lilconfig "^2.0.3"
-    yaml "^1.10.2"
+    cssnano-preset-default "^6.0.0"
+    lilconfig "^2.1.0"
 
-csso@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.npmjs.org/csso/-/csso-4.2.0.tgz"
+csso@^5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/csso/-/csso-5.0.5.tgz#f9b7fe6cc6ac0b7d90781bb16d5e9874303e2ca6"
   dependencies:
-    css-tree "^1.1.2"
+    css-tree "~2.2.0"
 
-dom-serializer@^1.0.1:
-  version "1.4.1"
-  resolved "https://registry.npmjs.org/dom-serializer/-/dom-serializer-1.4.1.tgz"
+dom-serializer@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-2.0.0.tgz#e41b802e1eedf9f6cae183ce5e622d789d7d8e53"
   dependencies:
-    domelementtype "^2.0.1"
-    domhandler "^4.2.0"
-    entities "^2.0.0"
+    domelementtype "^2.3.0"
+    domhandler "^5.0.2"
+    entities "^4.2.0"
 
-domelementtype@^2.0.1, domelementtype@^2.2.0:
+domelementtype@^2.3.0:
   version "2.3.0"
-  resolved "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz"
+  resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-2.3.0.tgz#5c45e8e869952626331d7aab326d01daf65d589d"
 
-domhandler@^4.2.0, domhandler@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.npmjs.org/domhandler/-/domhandler-4.3.1.tgz"
+domhandler@^5.0.1, domhandler@^5.0.2:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-5.0.3.tgz#cc385f7f751f1d1fc650c21374804254538c7d31"
   dependencies:
-    domelementtype "^2.2.0"
+    domelementtype "^2.3.0"
 
-domutils@^2.8.0:
-  version "2.8.0"
-  resolved "https://registry.npmjs.org/domutils/-/domutils-2.8.0.tgz"
+domutils@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/domutils/-/domutils-3.0.1.tgz#696b3875238338cb186b6c0612bd4901c89a4f1c"
   dependencies:
-    dom-serializer "^1.0.1"
-    domelementtype "^2.2.0"
-    domhandler "^4.2.0"
+    dom-serializer "^2.0.0"
+    domelementtype "^2.3.0"
+    domhandler "^5.0.1"
 
 electron-to-chromium@^1.4.251:
   version "1.4.284"
@@ -717,9 +722,9 @@ enhanced-resolve@^5.10.0:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
 
-entities@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.npmjs.org/entities/-/entities-2.2.0.tgz"
+entities@^4.2.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/entities/-/entities-4.5.0.tgz#5d268ea5e7113ec74c4d033b79ea5a35a488fb48"
 
 envinfo@^7.7.3:
   version "7.8.1"
@@ -987,11 +992,11 @@ isobject@^3.0.1:
   version "3.0.1"
   resolved "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz"
 
-jest-util@^29.3.1:
-  version "29.3.1"
-  resolved "https://registry.npmjs.org/jest-util/-/jest-util-29.3.1.tgz"
+jest-util@^29.5.0:
+  version "29.5.0"
+  resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-29.5.0.tgz#24a4d3d92fc39ce90425311b23c27a6e0ef16b8f"
   dependencies:
-    "@jest/types" "^29.3.1"
+    "@jest/types" "^29.5.0"
     "@types/node" "*"
     chalk "^4.0.0"
     ci-info "^3.2.0"
@@ -1014,18 +1019,24 @@ jest-worker@^27.4.5:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jest-worker@^29.1.2:
-  version "29.3.1"
-  resolved "https://registry.npmjs.org/jest-worker/-/jest-worker-29.3.1.tgz"
+jest-worker@^29.4.3:
+  version "29.5.0"
+  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-29.5.0.tgz#bdaefb06811bd3384d93f009755014d8acb4615d"
   dependencies:
     "@types/node" "*"
-    jest-util "^29.3.1"
+    jest-util "^29.5.0"
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
 js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+
+js-yaml@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
+  dependencies:
+    argparse "^2.0.1"
 
 json-parse-even-better-errors@^2.3.0, json-parse-even-better-errors@^2.3.1:
   version "2.3.1"
@@ -1047,9 +1058,9 @@ klona@^2.0.4:
   version "2.0.5"
   resolved "https://registry.npmjs.org/klona/-/klona-2.0.5.tgz"
 
-lilconfig@^2.0.3:
-  version "2.0.6"
-  resolved "https://registry.npmjs.org/lilconfig/-/lilconfig-2.0.6.tgz"
+lilconfig@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/lilconfig/-/lilconfig-2.1.0.tgz#78e23ac89ebb7e1bfbf25b18043de756548e7f52"
 
 lines-and-columns@^1.1.6:
   version "1.2.4"
@@ -1089,9 +1100,13 @@ make-dir@^3.0.2:
   dependencies:
     semver "^6.0.0"
 
-mdn-data@2.0.14:
-  version "2.0.14"
-  resolved "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.14.tgz"
+mdn-data@2.0.28:
+  version "2.0.28"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.28.tgz#5ec48e7bef120654539069e1ae4ddc81ca490eba"
+
+mdn-data@2.0.30:
+  version "2.0.30"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.30.tgz#ce4df6f80af6cfbe218ecd5c552ba13c4dfa08cc"
 
 merge-stream@^2.0.0:
   version "2.0.0"
@@ -1172,9 +1187,9 @@ multimatch@^4.0.0:
     arrify "^2.0.1"
     minimatch "^3.0.4"
 
-nanoid@^3.3.4:
-  version "3.3.4"
-  resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz"
+nanoid@^3.3.6:
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
 
 neo-async@^2.6.2:
   version "2.6.2"
@@ -1187,10 +1202,6 @@ node-releases@^2.0.6:
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz"
-
-normalize-url@^6.0.1:
-  version "6.1.0"
-  resolved "https://registry.npmjs.org/normalize-url/-/normalize-url-6.1.0.tgz"
 
 npm-run-path@^4.0.0:
   version "4.0.1"
@@ -1300,79 +1311,79 @@ postcss-calc@^8.2.3:
     postcss-selector-parser "^6.0.9"
     postcss-value-parser "^4.2.0"
 
-postcss-colormin@^5.3.0:
-  version "5.3.0"
-  resolved "https://registry.npmjs.org/postcss-colormin/-/postcss-colormin-5.3.0.tgz"
+postcss-colormin@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-colormin/-/postcss-colormin-6.0.0.tgz#d4250652e952e1c0aca70c66942da93d3cdeaafe"
   dependencies:
-    browserslist "^4.16.6"
+    browserslist "^4.21.4"
     caniuse-api "^3.0.0"
     colord "^2.9.1"
     postcss-value-parser "^4.2.0"
 
-postcss-convert-values@^5.1.3:
-  version "5.1.3"
-  resolved "https://registry.npmjs.org/postcss-convert-values/-/postcss-convert-values-5.1.3.tgz"
+postcss-convert-values@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-convert-values/-/postcss-convert-values-6.0.0.tgz#ec94a954957e5c3f78f0e8f65dfcda95280b8996"
   dependencies:
     browserslist "^4.21.4"
     postcss-value-parser "^4.2.0"
 
-postcss-discard-comments@^5.1.2:
-  version "5.1.2"
-  resolved "https://registry.npmjs.org/postcss-discard-comments/-/postcss-discard-comments-5.1.2.tgz"
+postcss-discard-comments@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-discard-comments/-/postcss-discard-comments-6.0.0.tgz#9ca335e8b68919f301b24ba47dde226a42e535fe"
 
-postcss-discard-duplicates@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-discard-duplicates/-/postcss-discard-duplicates-5.1.0.tgz"
+postcss-discard-duplicates@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-discard-duplicates/-/postcss-discard-duplicates-6.0.0.tgz#c26177a6c33070922e67e9a92c0fd23d443d1355"
 
-postcss-discard-empty@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/postcss-discard-empty/-/postcss-discard-empty-5.1.1.tgz"
+postcss-discard-empty@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-discard-empty/-/postcss-discard-empty-6.0.0.tgz#06c1c4fce09e22d2a99e667c8550eb8a3a1b9aee"
 
-postcss-discard-overridden@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-discard-overridden/-/postcss-discard-overridden-5.1.0.tgz"
+postcss-discard-overridden@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-discard-overridden/-/postcss-discard-overridden-6.0.0.tgz#49c5262db14e975e349692d9024442de7cd8e234"
 
-postcss-merge-longhand@^5.1.7:
-  version "5.1.7"
-  resolved "https://registry.npmjs.org/postcss-merge-longhand/-/postcss-merge-longhand-5.1.7.tgz"
+postcss-merge-longhand@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-merge-longhand/-/postcss-merge-longhand-6.0.0.tgz#6f627b27db939bce316eaa97e22400267e798d69"
   dependencies:
     postcss-value-parser "^4.2.0"
-    stylehacks "^5.1.1"
+    stylehacks "^6.0.0"
 
-postcss-merge-rules@^5.1.3:
-  version "5.1.3"
-  resolved "https://registry.npmjs.org/postcss-merge-rules/-/postcss-merge-rules-5.1.3.tgz"
+postcss-merge-rules@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-merge-rules/-/postcss-merge-rules-6.0.0.tgz#0d95bc73541156b8b4e763bd0de2c3f9d0ecf013"
   dependencies:
     browserslist "^4.21.4"
     caniuse-api "^3.0.0"
-    cssnano-utils "^3.1.0"
+    cssnano-utils "^4.0.0"
     postcss-selector-parser "^6.0.5"
 
-postcss-minify-font-values@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-minify-font-values/-/postcss-minify-font-values-5.1.0.tgz"
+postcss-minify-font-values@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-minify-font-values/-/postcss-minify-font-values-6.0.0.tgz#68d4a028f9fa5f61701974724b2cc9445d8e6070"
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-minify-gradients@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/postcss-minify-gradients/-/postcss-minify-gradients-5.1.1.tgz"
+postcss-minify-gradients@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-minify-gradients/-/postcss-minify-gradients-6.0.0.tgz#22b5c88cc63091dadbad34e31ff958404d51d679"
   dependencies:
     colord "^2.9.1"
-    cssnano-utils "^3.1.0"
+    cssnano-utils "^4.0.0"
     postcss-value-parser "^4.2.0"
 
-postcss-minify-params@^5.1.4:
-  version "5.1.4"
-  resolved "https://registry.npmjs.org/postcss-minify-params/-/postcss-minify-params-5.1.4.tgz"
+postcss-minify-params@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-minify-params/-/postcss-minify-params-6.0.0.tgz#2b3a85a9e3b990d7a16866f430f5fd1d5961b539"
   dependencies:
     browserslist "^4.21.4"
-    cssnano-utils "^3.1.0"
+    cssnano-utils "^4.0.0"
     postcss-value-parser "^4.2.0"
 
-postcss-minify-selectors@^5.2.1:
-  version "5.2.1"
-  resolved "https://registry.npmjs.org/postcss-minify-selectors/-/postcss-minify-selectors-5.2.1.tgz"
+postcss-minify-selectors@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-minify-selectors/-/postcss-minify-selectors-6.0.0.tgz#5046c5e8680a586e5a0cad52cc9aa36d6be5bda2"
   dependencies:
     postcss-selector-parser "^6.0.5"
 
@@ -1400,77 +1411,76 @@ postcss-modules-values@^4.0.0:
   dependencies:
     icss-utils "^5.0.0"
 
-postcss-normalize-charset@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-normalize-charset/-/postcss-normalize-charset-5.1.0.tgz"
+postcss-normalize-charset@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-charset/-/postcss-normalize-charset-6.0.0.tgz#36cc12457259064969fb96f84df491652a4b0975"
 
-postcss-normalize-display-values@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-normalize-display-values/-/postcss-normalize-display-values-5.1.0.tgz"
+postcss-normalize-display-values@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-display-values/-/postcss-normalize-display-values-6.0.0.tgz#8d2961415078644d8c6bbbdaf9a2fdd60f546cd4"
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-normalize-positions@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/postcss-normalize-positions/-/postcss-normalize-positions-5.1.1.tgz"
+postcss-normalize-positions@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-positions/-/postcss-normalize-positions-6.0.0.tgz#25b96df99a69f8925f730eaee0be74416865e301"
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-normalize-repeat-style@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/postcss-normalize-repeat-style/-/postcss-normalize-repeat-style-5.1.1.tgz"
+postcss-normalize-repeat-style@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-repeat-style/-/postcss-normalize-repeat-style-6.0.0.tgz#ddf30ad8762feb5b1eb97f39f251acd7b8353299"
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-normalize-string@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-normalize-string/-/postcss-normalize-string-5.1.0.tgz"
+postcss-normalize-string@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-string/-/postcss-normalize-string-6.0.0.tgz#948282647a51e409d69dde7910f0ac2ff97cb5d8"
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-normalize-timing-functions@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-normalize-timing-functions/-/postcss-normalize-timing-functions-5.1.0.tgz"
+postcss-normalize-timing-functions@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-timing-functions/-/postcss-normalize-timing-functions-6.0.0.tgz#5f13e650b8c43351989fc5de694525cc2539841c"
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-normalize-unicode@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/postcss-normalize-unicode/-/postcss-normalize-unicode-5.1.1.tgz"
+postcss-normalize-unicode@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-unicode/-/postcss-normalize-unicode-6.0.0.tgz#741b3310f874616bdcf07764f5503695d3604730"
   dependencies:
     browserslist "^4.21.4"
     postcss-value-parser "^4.2.0"
 
-postcss-normalize-url@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-normalize-url/-/postcss-normalize-url-5.1.0.tgz"
-  dependencies:
-    normalize-url "^6.0.1"
-    postcss-value-parser "^4.2.0"
-
-postcss-normalize-whitespace@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/postcss-normalize-whitespace/-/postcss-normalize-whitespace-5.1.1.tgz"
+postcss-normalize-url@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-url/-/postcss-normalize-url-6.0.0.tgz#d0a31e962a16401fb7deb7754b397a323fb650b4"
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-ordered-values@^5.1.3:
-  version "5.1.3"
-  resolved "https://registry.npmjs.org/postcss-ordered-values/-/postcss-ordered-values-5.1.3.tgz"
+postcss-normalize-whitespace@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-whitespace/-/postcss-normalize-whitespace-6.0.0.tgz#accb961caa42e25ca4179b60855b79b1f7129d4d"
   dependencies:
-    cssnano-utils "^3.1.0"
     postcss-value-parser "^4.2.0"
 
-postcss-reduce-initial@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/postcss-reduce-initial/-/postcss-reduce-initial-5.1.1.tgz"
+postcss-ordered-values@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-ordered-values/-/postcss-ordered-values-6.0.0.tgz#374704cdff25560d44061d17ba3c6308837a3218"
+  dependencies:
+    cssnano-utils "^4.0.0"
+    postcss-value-parser "^4.2.0"
+
+postcss-reduce-initial@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-reduce-initial/-/postcss-reduce-initial-6.0.0.tgz#7d16e83e60e27e2fa42f56ec0b426f1da332eca7"
   dependencies:
     browserslist "^4.21.4"
     caniuse-api "^3.0.0"
 
-postcss-reduce-transforms@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-reduce-transforms/-/postcss-reduce-transforms-5.1.0.tgz"
+postcss-reduce-transforms@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-reduce-transforms/-/postcss-reduce-transforms-6.0.0.tgz#28ff2601a6d9b96a2f039b3501526e1f4d584a46"
   dependencies:
     postcss-value-parser "^4.2.0"
 
@@ -1481,16 +1491,16 @@ postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4, postcss-selector
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
 
-postcss-svgo@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-svgo/-/postcss-svgo-5.1.0.tgz"
+postcss-svgo@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-svgo/-/postcss-svgo-6.0.0.tgz#7b18742d38d4505a0455bbe70d52b49f00eaf69d"
   dependencies:
     postcss-value-parser "^4.2.0"
-    svgo "^2.7.0"
+    svgo "^3.0.2"
 
-postcss-unique-selectors@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/postcss-unique-selectors/-/postcss-unique-selectors-5.1.1.tgz"
+postcss-unique-selectors@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-unique-selectors/-/postcss-unique-selectors-6.0.0.tgz#c94e9b0f7bffb1203894e42294b5a1b3fb34fbe1"
   dependencies:
     postcss-selector-parser "^6.0.5"
 
@@ -1498,11 +1508,11 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
 
-postcss@^8.4.17, postcss@^8.4.7:
-  version "8.4.18"
-  resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.18.tgz"
+postcss@^8.4.21, postcss@^8.4.7:
+  version "8.4.23"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.23.tgz#df0aee9ac7c5e53e1075c24a3613496f9e6552ab"
   dependencies:
-    nanoid "^3.3.4"
+    nanoid "^3.3.6"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
@@ -1644,9 +1654,9 @@ serialize-javascript@^5.0.1:
   dependencies:
     randombytes "^2.1.0"
 
-serialize-javascript@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.npmjs.org/serialize-javascript/-/serialize-javascript-6.0.0.tgz"
+serialize-javascript@^6.0.0, serialize-javascript@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-6.0.1.tgz#b206efb27c3da0b0ab6b52f48d170b7996458e5c"
   dependencies:
     randombytes "^2.1.0"
 
@@ -1674,7 +1684,7 @@ source-list-map@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npmjs.org/source-list-map/-/source-list-map-2.0.1.tgz"
 
-"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
+"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.1, source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
 
@@ -1695,10 +1705,6 @@ ssri@^8.0.1:
   dependencies:
     minipass "^3.1.1"
 
-stable@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.npmjs.org/stable/-/stable-0.1.8.tgz"
-
 strip-final-newline@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/strip-final-newline/-/strip-final-newline-2.0.0.tgz"
@@ -1707,9 +1713,9 @@ style-loader@^3.0.0:
   version "3.3.1"
   resolved "https://registry.npmjs.org/style-loader/-/style-loader-3.3.1.tgz"
 
-stylehacks@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/stylehacks/-/stylehacks-5.1.1.tgz"
+stylehacks@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/stylehacks/-/stylehacks-6.0.0.tgz#9fdd7c217660dae0f62e14d51c89f6c01b3cb738"
   dependencies:
     browserslist "^4.21.4"
     postcss-selector-parser "^6.0.4"
@@ -1736,17 +1742,16 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
 
-svgo@^2.7.0:
-  version "2.8.0"
-  resolved "https://registry.npmjs.org/svgo/-/svgo-2.8.0.tgz"
+svgo@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/svgo/-/svgo-3.0.2.tgz#5e99eeea42c68ee0dc46aa16da093838c262fe0a"
   dependencies:
     "@trysound/sax" "0.2.0"
     commander "^7.2.0"
-    css-select "^4.1.3"
-    css-tree "^1.1.3"
-    csso "^4.2.0"
+    css-select "^5.1.0"
+    css-tree "^2.2.1"
+    csso "^5.0.5"
     picocolors "^1.0.0"
-    stable "^0.1.8"
 
 tapable@^2.1.1, tapable@^2.2.0:
   version "2.2.1"
@@ -1923,10 +1928,6 @@ wrappy@1:
 yallist@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz"
-
-yaml@^1.10.0, yaml@^1.10.2:
-  version "1.10.2"
-  resolved "https://registry.npmjs.org/yaml/-/yaml-1.10.2.tgz"
 
 yargs-parser@20.2.1:
   version "20.2.1"
