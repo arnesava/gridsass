@@ -5,11 +5,10 @@
         "css",
         "grid",
         "framework",
-        "gridkit",
         "gridsass",
         "responsive"
     ],
-    "homepage": "http://gridkit.io/",
+    "homepage": "https://github.com/arnesava/gridsass",
     "authors": [
         {
             "name": "Arne Sava",
