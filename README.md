@@ -1,21 +1,21 @@
-[WIP] Ultralight performance-oriented modular CSS framework based on [CSS grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).
+178 kB [grid-based](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) modular Sass framework.
 
-[![Build Status](https://app.travis-ci.com/allesava/gridkitio.svg?branch=main)](https://app.travis-ci.com/allesava/gridkitio)
-![npm](https://img.shields.io/npm/v/gridkitio.svg?color=%230366d6)
-![NPM](https://img.shields.io/npm/l/gridkitio)
+[![Build Status](https://app.travis-ci.com/arnesava/gridsass.svg?branch=main)](https://app.travis-ci.com/arnesava/gridsass)
+![npm](https://img.shields.io/npm/v/gridsass.svg?color=%230366d6)
+![NPM](https://img.shields.io/npm/l/gridsass)
 
 ## Install
 
 ### NPM
 
 ```sh
-npm install gridkitio
+npm install gridsass
 ```
 
 ### Yarn
 
 ```sh
-yarn add gridkitio
+yarn add gridsass
 ```
 
 ## Browser Support
@@ -36,10 +36,8 @@ Mobile browsers:
 
 ## NPMJS
 
-[npmjs.com/package/gridkitio](https://www.npmjs.com/package/gridkitio)
+[npmjs.com/package/gridsass](https://www.npmjs.com/package/gridsass)
 
 ## Copyright and license
-
-GridKit code &copy; 2019 [Arne Sava](https://sava.io)
 
 Released under [the MIT license](https://github.com/arnesava/gridkit/blob/master/LICENSE).

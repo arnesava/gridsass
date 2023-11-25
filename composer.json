@@ -1,23 +1,23 @@
 {
-    "name": "allesava/gridkitio",
+    "name": "arnesava/gridsass",
     "description": "Ultralight performance-oriented modular CSS framework based on CSS grid.",
     "keywords": [
         "css",
         "grid",
         "framework",
         "gridkit",
-        "gridkitio",
+        "gridsass",
         "responsive"
     ],
     "homepage": "http://gridkit.io/",
     "authors": [
         {
-            "name": "Alle Sava",
+            "name": "Arne Sava",
             "email": "a@sava.io"
         }
     ],
     "support": {
-        "issues": "https://github.com/allesava/gridkitio/issues"
+        "issues": "https://github.com/arnesava/gridsass/issues"
     },
     "license": "MIT"
 }

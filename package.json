@@ -1,15 +1,15 @@
 {
-  "name": "gridkitio",
-  "version": "0.3.4",
-  "homepage": "https://gridkit.io",
+  "name": "gridsass",
+  "version": "0.3.5",
+  "homepage": "https://github.com/arnesava/gridsass",
   "author": {
-    "name": "Alle",
+    "name": "Arne",
     "email": "a@sava.io",
     "url": "https://sava.io"
   },
-  "description": "[WIP] Ultralight performance-oriented modular CSS framework based on CSS grid.",
+  "description": "178 kB grid-based modular Sass framework.",
   "main": "index.js",
-  "repository": "allesava/gridkitio",
+  "repository": "arnesava/gridsass",
   "license": "MIT",
   "scripts": {
     "dev": "webpack --mode development ./src/index.js --output-path ./dist/main.js",
@@ -20,12 +20,13 @@
     "css",
     "grid",
     "framework",
-    "gridkit",
     "gridkitio",
-    "responsive"
+    "gridsass",
+    "scss",
+    "sass"
   ],
   "bugs": {
-    "url": "https://github.com/allesava/gridkitio/issues"
+    "url": "https://github.com/arnesava/gridsass/issues"
   },
   "devDependencies": {
     "css-minimizer-webpack-plugin": "^5.0.0",
