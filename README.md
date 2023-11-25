@@ -34,16 +34,12 @@ Mobile browsers:
 -   Android: Android Browser, Chrome, Firefox, Samsung, Opera Mobile
 -   UC Browser, QQ Browser, KaiOS Browser
 
-## Documentation
-
-```sh
-UNDER CONSTRUCTION
-```
+## NPMJS
 
 [npmjs.com/package/gridkitio](https://www.npmjs.com/package/gridkitio)
 
 ## Copyright and license
 
-GridKit code &copy; 2019 [Alle Sava](https://sava.io) — [Buy Me a Coffee](https://www.buymeacoffee.com/allesava)
+GridKit code &copy; 2019 [Arne Sava](https://sava.io)
 
-Released under [the MIT license](https://github.com/allesava/gridkit/blob/master/LICENSE).
+Released under [the MIT license](https://github.com/arnesava/gridkit/blob/master/LICENSE).
