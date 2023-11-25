@@ -1,8 +1,8 @@
 179 kB [grid-based](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) modular Sass framework.
 
 [![Build Status](https://app.travis-ci.com/arnesava/gridsass.svg?branch=main)](https://app.travis-ci.com/arnesava/gridsass)
-![npm](https://img.shields.io/npm/v/gridsass.svg?color=%230366d6)
-![NPM](https://img.shields.io/npm/l/gridsass)
+![npm](https://img.shields.io/npm/v/gridsass-framework.svg?color=%230366d6)
+![NPM](https://img.shields.io/npm/l/gridsass-framework)
 
 ## Install
 
