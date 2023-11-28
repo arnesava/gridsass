@@ -9,3 +9,5 @@ config.codekit3
 index.html
 dist/
 node_modules/
+/.npmignore
+/composer.lock
