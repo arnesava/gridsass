@@ -1632,8 +1632,8 @@ sass-loader@^13.0.0:
     neo-async "^2.6.2"
 
 sass@^1.56.1:
-  version "1.56.1"
-  resolved "https://registry.npmjs.org/sass/-/sass-1.56.1.tgz"
+  version "1.71.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.71.0.tgz#b3085759b9b2ab503a977aecb7e91153bf941117"
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
