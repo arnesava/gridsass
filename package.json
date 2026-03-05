@@ -47,7 +47,7 @@
     "postcss": "^8.4.7",
     "serialize-javascript": "^7.0.0",
     "terser-webpack-plugin": "^5.3.10",
-    "yargs-parser": "21.1.1"
+    "yargs-parser": "22.0.0"
   },
   "husky": {
     "hooks": {
