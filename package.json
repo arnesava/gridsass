@@ -29,15 +29,15 @@
     "url": "https://github.com/arnesava/gridsass/issues"
   },
   "devDependencies": {
-    "css-minimizer-webpack-plugin": "^5.0.0",
+    "css-minimizer-webpack-plugin": "^8.0.0",
     "husky": "^8.0.0",
     "mini-css-extract-plugin": "^2.6.0",
-    "pretty-quick": "^3.0.0",
+    "pretty-quick": "^4.2.2",
     "sass": "^1.56.1",
     "sass-loader": "^13.0.0",
     "style-loader": "^3.0.0",
     "webpack": "^5.69.1",
-    "webpack-cli": "^5.1.4",
+    "webpack-cli": "^6.0.1",
     "webpack-node-externals": "^=3.0.0"
   },
   "dependencies": {
@@ -47,7 +47,7 @@
     "postcss": "^8.4.7",
     "serialize-javascript": "^7.0.0",
     "terser-webpack-plugin": "^5.3.10",
-    "yargs-parser": "21.1.1"
+    "yargs-parser": "22.0.0"
   },
   "husky": {
     "hooks": {
