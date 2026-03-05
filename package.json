@@ -29,7 +29,7 @@
     "url": "https://github.com/arnesava/gridsass/issues"
   },
   "devDependencies": {
-    "css-minimizer-webpack-plugin": "^5.0.0",
+    "css-minimizer-webpack-plugin": "^8.0.0",
     "husky": "^8.0.0",
     "mini-css-extract-plugin": "^2.6.0",
     "pretty-quick": "^4.2.2",
