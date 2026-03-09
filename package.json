@@ -35,7 +35,7 @@
     "pretty-quick": "^4.2.2",
     "sass": "^1.56.1",
     "sass-loader": "^13.0.0",
-    "style-loader": "^3.0.0",
+    "style-loader": "^4.0.0",
     "webpack": "^5.69.1",
     "webpack-cli": "^6.0.1",
     "webpack-node-externals": "^=3.0.0"
