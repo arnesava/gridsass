@@ -534,9 +534,9 @@ commander@^2.20.0:
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
 cosmiconfig@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-9.0.0.tgz"
-  integrity sha512-itvL5h8RETACmOTFc4UfIyB2RfEHi71Ax6E/PivVxq9NseKbOWpeyHEOIbmAw1rs8Ak0VursQNww7lf7YtUwzg==
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-9.0.1.tgz#df110631a8547b5d1a98915271986f06e3011379"
+  integrity sha512-hr4ihw+DBqcvrsEDioRO31Z17x71pUYoNe/4h6Z0wB72p7MU7/9gH8Q3s12NFhHPfYBBOV3qyfUxmr/Yn3shnQ==
   dependencies:
     env-paths "^2.2.1"
     import-fresh "^3.3.0"
@@ -548,19 +548,19 @@ css-declaration-sorter@^7.2.0:
   resolved "https://registry.npmjs.org/css-declaration-sorter/-/css-declaration-sorter-7.3.0.tgz"
   integrity sha512-LQF6N/3vkAMYF4xoHLJfG718HRJh34Z8BnNhd6bosOMIVjMlhuZK5++oZa3uYAgrI5+7x2o27gUqTR2U/KjUOQ==
 
-css-loader@^6.0.0:
-  version "6.11.0"
-  resolved "https://registry.npmjs.org/css-loader/-/css-loader-6.11.0.tgz"
-  integrity sha512-CTJ+AEQJjq5NzLga5pE39qdiSV56F8ywCIsqNIRF0r7BDgWsN25aazToqAFg7ZrtA/U016xudB3ffgweORxX7g==
+css-loader@^7.1.4:
+  version "7.1.4"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-7.1.4.tgz#8f6bf9f8fc8cbef7d2ef6e80acc6545eaefa90b1"
+  integrity sha512-vv3J9tlOl04WjiMvHQI/9tmIrCxVrj6PFbHemBB1iihpeRbi/I4h033eoFIhwxBBqLhI0KYFS7yvynBFhIZfTw==
   dependencies:
     icss-utils "^5.1.0"
-    postcss "^8.4.33"
+    postcss "^8.4.40"
     postcss-modules-extract-imports "^3.1.0"
     postcss-modules-local-by-default "^4.0.5"
     postcss-modules-scope "^3.2.0"
     postcss-modules-values "^4.0.0"
     postcss-value-parser "^4.2.0"
-    semver "^7.5.4"
+    semver "^7.6.3"
 
 css-minimizer-webpack-plugin@^8.0.0:
   version "8.0.0"
@@ -939,9 +939,9 @@ lodash.uniq@^4.5.0:
   integrity sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==
 
 lodash@^4.17.15:
-  version "4.17.23"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.23.tgz#f113b0378386103be4f6893388c73d0bde7f2c5a"
-  integrity sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.18.1.tgz#ff2b66c1f6326d59513de2407bf881439812771c"
+  integrity sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==
 
 mdn-data@2.0.28:
   version "2.0.28"
@@ -979,9 +979,9 @@ mime-types@^2.1.27:
     mime-db "1.52.0"
 
 mini-css-extract-plugin@^2.6.0:
-  version "2.9.4"
-  resolved "https://registry.npmjs.org/mini-css-extract-plugin/-/mini-css-extract-plugin-2.9.4.tgz"
-  integrity sha512-ZWYT7ln73Hptxqxk2DxPU9MmapXRhxkJD6tkSR04dnQxm8BGu2hzgKLugK5yySD97u/8yy7Ma7E76k9ZdvtjkQ==
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-2.10.0.tgz#d801a1f388f8fac7333c01b7c15c9222c811def4"
+  integrity sha512-540P2c5dYnJlyJxTaSloliZexv8rji6rY8FhQN+WF/82iHQfA23j/xtJx97L+mXOML27EqksSek/g4eK7jaL3g==
   dependencies:
     schema-utils "^4.0.0"
     tapable "^2.2.1"
@@ -1041,14 +1041,14 @@ picocolors@^1.1.1:
   integrity sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==
 
 picomatch@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
-  integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.2.tgz#5a942915e26b372dc0f0e6753149a16e6b1c5601"
+  integrity sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==
 
 picomatch@^4.0.2:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.3.tgz#796c76136d1eead715db1e7bad785dedd695a042"
-  integrity sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.4.tgz#fd6f5e00a143086e074dffe4c924b8fb293b0589"
+  integrity sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==
 
 postcss-calc@^10.1.1:
   version "10.1.1"
@@ -1368,15 +1368,15 @@ schema-utils@^4.0.0, schema-utils@^4.2.0, schema-utils@^4.3.0, schema-utils@^4.3
     ajv-formats "^2.1.1"
     ajv-keywords "^5.1.0"
 
-semver@^7.5.4:
-  version "7.7.3"
-  resolved "https://registry.npmjs.org/semver/-/semver-7.7.3.tgz"
-  integrity sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==
+semver@^7.6.3:
+  version "7.7.4"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.4.tgz#28464e36060e991fa7a11d0279d2d3f3b57a7e8a"
+  integrity sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==
 
 serialize-javascript@^7.0.0, serialize-javascript@^7.0.3:
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-7.0.4.tgz#c517735bd5b7631dd1fc191ee19cbb713ff8e05c"
-  integrity sha512-DuGdB+Po43Q5Jxwpzt1lhyFSYKryqoNjQSA9M92tyw0lyHIOur+XCalOUe0KTJpyqzT8+fQ5A0Jf7vCx/NKmIg==
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-7.0.5.tgz#c798cc0552ffbb08981914a42a8756e339d0d5b1"
+  integrity sha512-F4LcB0UqUl1zErq+1nYEEzSHJnIwb3AF2XWB94b+afhrekOUijwooAYqFyRbjYkm2PAKBabx6oYv/xDxNi8IBw==
 
 "source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.1, source-map-js@^1.2.1:
   version "1.2.1"
@@ -1396,10 +1396,10 @@ source-map@^0.6.0:
   resolved "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-style-loader@^3.0.0:
-  version "3.3.4"
-  resolved "https://registry.npmjs.org/style-loader/-/style-loader-3.3.4.tgz"
-  integrity sha512-0WqXzrsMTyb8yjZJHDqwmnwRJvhALK9LfRtRc6B4UTWe8AijYLZYZ9thuJTZc2VfQWINADW/j+LiJnfy2RoC1w==
+style-loader@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-4.0.0.tgz#0ea96e468f43c69600011e0589cb05c44f3b17a5"
+  integrity sha512-1V4WqhhZZgjVAVJyt7TdDPZoPBPNHbekX4fWnCJL1yQukhCeZhJySUL+gL9y6sNdN95uEOS83Y55SqHcP7MzLA==
 
 stylehacks@^7.0.5:
   version "7.0.7"
