@@ -1,15 +1,15 @@
 {
   "name": "gridsass-framework",
-  "version": "0.3.7",
-  "homepage": "https://github.com/arnesava/gridsass",
+  "version": "0.3.9",
+  "homepage": "https://github.com/madebyarne/gridsass",
   "author": {
     "name": "Arne",
-    "email": "a@sava.io",
-    "url": "https://sava.io"
+    "email": "madebyarne@protonmail.com",
+    "url": "https://madebyarne.com"
   },
   "description": "179 kB grid-based modular Sass framework.",
   "main": "index.js",
-  "repository": "arnesava/gridsass",
+  "repository": "madebyarne/gridsass",
   "license": "MIT",
   "scripts": {
     "dev": "webpack --mode development ./src/index.js --output-path ./dist/main.js",
@@ -26,7 +26,7 @@
     "sass"
   ],
   "bugs": {
-    "url": "https://github.com/arnesava/gridsass/issues"
+    "url": "https://github.com/madebyarne/gridsass/issues"
   },
   "devDependencies": {
     "css-minimizer-webpack-plugin": "^8.0.0",
